@@ -3,37 +3,37 @@ const gameData = [
     {
         correctEnglishPhrase: "Hi! nice to meet you",
         draggableEnglishWords: ["Hi!", "nice", "to", "meet", "you"],
-        audioPath: "audio/1.mp3" 
+        audioPath: "audio/8.1.mp3" 
     },
     {
         correctEnglishPhrase: "Good afternoon! what is your name?",
         draggableEnglishWords: ["Good", "afternoon!", "what", "is", "your", "name?"],
-        audioPath: "audio/2.mp3"
+        audioPath: "audio/8.2.mp3"
     },
     {
         correctEnglishPhrase: "My name is Ivan, what is your name?",
         draggableEnglishWords: ["My", "name", "is", "Ivan,", "what", "is", "your", "name?"],
-        audioPath: "audio/3.mp3"
+        audioPath: "audio/8.3.mp3"
     },
     {
         correctEnglishPhrase: "I am Nina, how are you?",
         draggableEnglishWords: ["I", "am", "Nina,", "how", "are", "you?"],
-        audioPath: "audio/4.mp3"
+        audioPath: "audio/8.4.mp3"
     },
     {
         correctEnglishPhrase: "I'm great, how are you?",
         draggableEnglishWords: ["I'm", "great,", "how", "are", "you?"],
-        audioPath: "audio/5.mp3"
+        audioPath: "audio/8.5.mp3"
     },
     {
         correctEnglishPhrase: "I'm tired, bye Ivan",
         draggableEnglishWords: ["I'm", "tired,", "bye", "Ivan"],
-        audioPath: "audio/6.mp3"
+        audioPath: "audio/8.6.mp3"
     },
      {
         correctEnglishPhrase: "Goodbye, Nina",
         draggableEnglishWords: ["Goodbye,", "Nina"],
-        audioPath: "audio/7.mp3"
+        audioPath: "audio/8.7.mp3"
     }
 ];
 
