@@ -1,17 +1,17 @@
-// game2_drag_and_drop.js
-
-// --- ДАНІ ДЛЯ ГРИ 2 ---
 const dragAndDropPuzzlesData2 = [
-    { correctWord: "How are you", image: "./Pictures/як твої справи.jpg", draggableWord: "How are you" },
-    { correctWord: "I'm good", image: "./Pictures/добре.jpg", draggableWord: "I'm good" },
-    { correctWord: "I'm happy", image: "./Pictures/щасливий.jpg", draggableWord: "I'm happy" },
-    { correctWord: "I'm great", image: "./Pictures/чудово.jpg", draggableWord: "I'm great" },
-    { correctWord: "I'm sad", image: "./Pictures/сумний.jpg", draggableWord: "I'm sad" },
-    { correctWord: "I'm tired", image: "./Pictures/втомлений.jpg", draggableWord: "I'm tired" },
-    { correctWord: "I'm hungry", image: "./Pictures/голодний.jpg", draggableWord: "I'm hungry" }
+    { correctWord: "Red", image: "./Pictures/червоний.jpg", draggableWord: "Red" },
+    { correctWord: "Blue", image: "./Pictures/синій.jpg", draggableWord: "Blue" },
+    { correctWord: "Green", image: "./Pictures/зелений.jpg", draggableWord: "Green" },
+    { correctWord: "Yellow", image: "./Pictures/жовтий.jpg", draggableWord: "Yellow" },
+    { correctWord: "Orange", image: "./Pictures/оранжевий.jpg", draggableWord: "Orange" },
+    { correctWord: "Purple", image: "./Pictures/фіолетовий.jpg", draggableWord: "Purple" },
+    { correctWord: "Pink", image: "./Pictures/рожевий.jpg", draggableWord: "Pink" },
+    { correctWord: "Brown", image: "./Pictures/коричневий.jpg", draggableWord: "Brown" },
+    { correctWord: "Black", image: "./Pictures/чорний.jpg", draggableWord: "Black" },
+    { correctWord: "White", image: "./Pictures/білий.jpg", draggableWord: "White" },
+    { correctWord: "Gray", image: "./Pictures/сірий.jpg", draggableWord: "Gray" }
 ];
 
-// Глобальна змінна для відстеження перетягуваного елемента для ЦІЄЇ ГРИ
 let draggedItem2 = null; // Змінено на draggedItem2, щоб уникнути конфліктів
 
 // --- ДОПОМІЖНІ ФУНКЦІЇ (копія, якщо вони не глобальні в вашому основному файлі) ---
@@ -41,9 +41,9 @@ function createDragAndDropPuzzle2(puzzleData, index) {
 
     const puzzleWrapper = document.createElement('div');
     puzzleWrapper.id = puzzleId;
-    puzzleWrapper.className = "bg-white p-3 rounded-lg shadow-md flex flex-col items-center relative flex-grow-0 flex-shrink-0 w-[calc(33.33%-1.066rem)] min-w-[180px]";
+    puzzleWrapper.className = "bg-white p-3 rounded-lg shadow-md flex flex-col items-center relative flex-grow-0 flex-shrink-0 w-[calc(34%-1.066rem)] min-w-[180px]";
     puzzleWrapper.innerHTML = `
-        <img src="${imagePath}" alt="Зображення для слова ${correctWord}" class="w-28 h-28 object-cover rounded-md shadow-sm mb-3"> 
+        <img src="${imagePath}" alt="Зображення для слова ${correctWord}" class="imagesize w-28 h-28 rounded-md shadow-sm mb-3 object-cover"> 
         
         <div class="word-drop-zone2 w-full h-16 flex justify-center items-center border-2 border-dashed border-gray-300 rounded-md text-lg font-bold text-gray-500 overflow-hidden">
             <span class="placeholder text-sm">Перетягніть слово сюди</span>
