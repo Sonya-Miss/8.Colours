@@ -3,7 +3,7 @@ const gameData = [
     {
         correctEnglishPhrase: "Hi! nice to meet you",
         draggableEnglishWords: ["Hi!", "nice", "to", "meet", "you"],
-        audioPath: "audio/8.1.mp3" 
+        audioPath: "audio/eightone.mp3" 
     },
     {
         correctEnglishPhrase: "Good afternoon! what is your name?",
